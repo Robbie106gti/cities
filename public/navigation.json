@@ -1,0 +1,39 @@
+{
+  "cities": [
+    {
+      "section": "cupertino",
+      "label": "Cupertino",
+      "image": "Apple_park_cupertino_2019.jpg"
+    },
+    {
+      "section": "new-york-city",
+      "label": "New York City",
+      "image": "NYC_Downtown_Manhattan_Skyline_seen_from_Paulus_Hook_2019-12-20_IMG_7347_FRD_(cropped).jpg"
+    },
+    {
+      "section": "london",
+      "label": "London",
+      "image": "gettyimages-174726708-612x612.jpg"
+    },
+    {
+      "section": "amsterdam",
+      "label": "Amsterdam",
+      "image": "amsterdam-overview.jpg"
+    },
+    {
+      "section": "tokyo",
+      "label": "Tokyo",
+      "image": "tokyo.jpg"
+    },
+    {
+      "section": "hong-kong",
+      "label": "Hong Kong",
+      "image": "Hong_Kong_Harbour_Night_2019-06-11.jpg"
+    },
+    {
+      "section": "sydney",
+      "label": "Sydney",
+      "image": "Sydney_Opera_House_and_Harbour_Bridge_Dusk_(2)_2019-06-21.jpg"
+    }
+  ]
+}
