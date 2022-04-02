@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 const Home: NextPage = () => {
   return (
     <div >
-      Home page, select a city to see the details
+      <p>Home page, select a city to see the details</p>
     </div>
   )
 }

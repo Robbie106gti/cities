@@ -8,7 +8,7 @@ export default function Button(props: any) {
   let buttonStyles = styles.button;
 
   if (process.browser) {
-    buttonStyles =  `${styles.button} ${router.query.city === city.section ? styles.activeButton : ''}`;
+    buttonStyles = `${styles.button}${router.query.city === city.section ? ' ' +styles.activeButton : ''}`;
   }
   
   return (

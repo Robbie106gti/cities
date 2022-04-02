@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from 'next/image'
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
@@ -12,13 +11,12 @@ export interface City {
 }
 
 export default function CityPage() {
-  const router = useRouter()
+  const router = useRouter();
   const [ city, setCity] = useState({} as City);
   useEffect(() => {
     setCity(city => {
       const find = navigation.cities.find(c => c.section === router.query.city) as City;
       if (!find) {
-        console.log("City not found", router.query.city);
         return {
           label: router.query.city,
           section: router.query.city,
@@ -31,7 +29,7 @@ export default function CityPage() {
   
   return (
     <div className={styles.city} >
-      <h1>Welcome to {city.label}</h1>
+      <h2 className={styles.description}>Welcome to {city.label}</h2>
       {city.image ? <Image src={'/images/'+city.image} width={300} height={150} /> : null}
       <button onClick={() => router.back()}>Back</button>
     </div>
